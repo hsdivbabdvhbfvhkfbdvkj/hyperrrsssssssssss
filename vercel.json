@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/keyauth/:action", "destination": "/api/keyauth?action=:action" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
